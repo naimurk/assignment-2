@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    color: #131313;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    border: 1px solid red;
+    padding: 50px 200px;
+    background-color: #f5f5dc;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+
+.header-banner {
+
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 50px;
+
+}
+
+
+/* header part text img button */
+
+
+nav h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+
+.navbar-menu a {
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.header-banner h1 {
+    font-size: 64px;
+    font-weight: 700;
+    padding: 0 487px;
+    
+}
+
+.header-banner p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 390px;
+    
+
+}
+
+
+.header-banner button {
+    background-color: #FF900E;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 25px;
+    
+    border-width: 0;
+    border-radius: 5px;
+    color: white;
+
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+
+
+.navbar-menu span img {
+    display: none;
+    width: 28px;
+}
+
+
+
+/* header part responsive */
+
+
+@media only screen and (max-width: 576px) {
+
+    * {
+        box-sizing: border-box;
+        color: #131313;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+   
+
+
+    header {
+        width: 576px;
+        /* height: 730px;  */
+        padding: 0px 30px;
+        
+    }
+
+
+    
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #131313;
+    border: 1px solid blue;
+    width: 200px;
+}
+
+
+.navbar-menu a {
+    display: none;
+}
+
+
+
+
+    .header-banner h1 {
+        font-size: 38px;
+        font-weight: 700;
+        padding: 0 100px;
+        
+        
+    }
+
+
+   
+    .header-banner p {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 70px;
+        
+    
+    }
+
+
+
+    .header-banner button {
+        background-color: #FF900E;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 21px 25px;
+        
+        border-width: 0;
+        border-radius: 5px;
+        color: white;
+    
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+
+
+    .header-banner img {
+        width: 510px;
+        height: 250px;
+    }
+
+
+    .navbar-menu span img {
+        display: inline;
+    }
+    
+    
+}
+
+
+
